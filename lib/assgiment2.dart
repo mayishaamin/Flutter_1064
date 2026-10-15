@@ -26,14 +26,13 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-
       drawer: Drawer(
         child: Column(
           children: [
             UserAccountsDrawerHeader(
               decoration: const BoxDecoration(
                 color: mainColor,
-              ),
+              ),            
               accountName: const Text("Mayisha"),
               accountEmail: const Text("mayisha013@gmail.com"),
               currentAccountPicture: const CircleAvatar(
